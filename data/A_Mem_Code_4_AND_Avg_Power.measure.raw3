@@ -1,0 +1,16 @@
+Title: * 4. AND Gate: Cascaded Memristor Logic (Fixed Math)
+Input deck file name: D:\Software\IISC\Files\A_Mem_Code_4_AND.in
+Date: Tue Jul 21 17:30:03 2026
+Plotname: Measure Plot
+Temperature: 0
+Sweepvar: avg_power
+Sweepmode: 0
+Flags: real padded
+No. Variables: 1
+No. Points: 1         
+Source: SmartSpice MultiCore,Platform:0
+Version: 5.10.0.R
+Variables:	0	avg_power	notype
+Values:
+ 0	-9.990491729086967e-05
+

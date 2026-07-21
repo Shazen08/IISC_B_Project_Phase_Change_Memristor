@@ -1,0 +1,16 @@
+Title: * 3. NOR Gate: Pure Memristor Logic
+Input deck file name: D:\Software\IISC\Files\A_Mem_Code_3_NOR.in
+Date: Tue Jul 21 17:29:53 2026
+Plotname: Measure Plot
+Temperature: 0
+Sweepvar: avg_power
+Sweepmode: 0
+Flags: real padded
+No. Variables: 1
+No. Points: 1         
+Source: SmartSpice MultiCore,Platform:0
+Version: 5.10.0.R
+Variables:	0	avg_power	notype
+Values:
+ 0	-8.331664661914813e-05
+
