@@ -1,0 +1,20 @@
+* Testbench for MoTe2 Phase Change Memristor (Alpha Parameter Model)
+
+* Load the new alpha-based Verilog-A module
+.verilog "A_Mem_Code_Alpha.va"
+
+* Drive with a 4.0V sine wave at 1 kHz (matches the Python script)
+V1 p 0 SIN(0 4.0 1000)
+
+* Instantiate the Phase Change device
+YVLG1 p 0 w_monitor A_Mem_Code_Alpha
+Rmon w_monitor 0 1G
+
+* Analysis Setup
+* Run for exactly 1 cycle (1 millisecond). 
+* Using a tiny 100ns step to capture the violent Arrhenius exponential snaps perfectly.
+.tran 100n 1m
+
+* Export waveforms for SmartView
+.plot v(p) i(YVLG1.p)
+.end
