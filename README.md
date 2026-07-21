@@ -6,6 +6,10 @@ The project bridges low-level device physics (Arrhenius-based thermal-electric s
 
 ---
 
+The foundational Python mathematical model structure was developed by my lab PHD scholar Mr Sourav Guha, while device parameter tuning, Verilog-A integration, SPICE netlist development, and logic gate simulations were independently engineered and verified by me.
+
+---
+
 ## Repository Structure
 
 ```text
